@@ -2,37 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <header id= "header">
-      <img id ="header-img" src="https://via.placeholder.com/150"/>
-    <h1 >A Product Landing Page</h1>
+      <img id ="header-img" src="https://via.placeholder.com/150" width="25px"/>
     <nav id="nav-bar">
       <a class="nav-link" href="#content1">Features</a>
       <a class="nav-link" href="#content2">How it Works</a>
       <a class="nav-link" href="#content3">Pricing</a>    
     </nav>
     </header>
-    <section id="content1"></section>
-    <section id="content2"></section>
-    <section id="content3"></section>
+    <main>
+      <section id="content1"></section>
+      <section id="content2"></section>
+      <section id="content3"></section>
+      
+      <video id="video" controls width="250">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/examples/flower.webm"
+                type="video/webm">
     
-    <video id="video" controls width="250">
-      <source src="https://interactive-examples.mdn.mozilla.net/media/examples/flower.webm"
-              type="video/webm">
-  
-      <source src="https://interactive-examples.mdn.mozilla.net/media/examples/flower.mp4"
-              type="video/mp4">
-      Sorry, your browser doesn't support embedded videos.
-    </video>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input type="email" id="email" required placeholder="testingemail@gmailcom" name="email">
-      <input type="submit" id="submit">
-    </form>
-
+        <source src="https://interactive-examples.mdn.mozilla.net/media/examples/flower.mp4"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" required placeholder="testingemail@gmailcom" name="email">
+        <input type="submit" id="submit">
+      </form>
+    </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>

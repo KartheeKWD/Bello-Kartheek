@@ -1,0 +1,35 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#nav-bar {
+    background-color: #333;
+}
+
+#nav-bar a {
+    color: #fff;
+    display: inline-block;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+#nav-bar a:hover{
+  color: #4caf4c
+}
+
+img {
+    display: inline-block;
+}
+  
+@media only screen and (max-width: 796px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+@media only screen and (max-width: 576px) {
+    body {
+      background-color: red;
+    }
+  }
